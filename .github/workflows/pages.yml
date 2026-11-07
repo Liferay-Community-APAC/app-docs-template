@@ -10,6 +10,8 @@ on:
 
 jobs:
   publish:
+    # The template itself has nothing to publish; repositories made from it do.
+    if: github.repository != 'Liferay-Community-APAC/app-docs-template'
     uses: Liferay-Community-APAC/liferay-community-apac.github.io/.github/workflows/publish-site.yml@main
     permissions:
       contents: read

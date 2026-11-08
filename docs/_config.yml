@@ -6,7 +6,7 @@ footer_note: My App is available under the MIT license.     # change, or remove 
 
 # Where the docs sit in the knowledge base (as in the main site's data/apps.json).
 category_id: marketplace-apps
-category_name: Marketplace apps
+category_name: Marketplace Apps
 
 url: https://liferay-community-apac.github.io
 lang: en

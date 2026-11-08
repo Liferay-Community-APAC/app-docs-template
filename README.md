@@ -35,7 +35,7 @@ it were one site.
 5. **Add the app to the main site**: add an entry to `data/apps.json` in
    [liferay-community-apac.github.io](https://github.com/Liferay-Community-APAC/liferay-community-apac.github.io),
    with `"docs": "<repository-name>/"`, `"search": "<repository-name>/pagefind/"` and
-   `"sitemap": "<repository-name>/sitemap.xml"`. That adds its card to the homepages and the knowledge base,
+   `"sitemap": "<repository-name>/sitemap.xml"`. That adds it to the homepages and the Marketplace Apps pages,
    includes its pages in the site search, and tells search engines about its sitemap.
 
 ## Preview locally

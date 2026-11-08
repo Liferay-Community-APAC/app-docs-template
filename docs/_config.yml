@@ -4,9 +4,10 @@ description: Documentation for My App, a Liferay DXP app.   # change: one senten
 baseurl: /my-app                                  # change: "/" + this repository's name
 footer_note: My App is available under the MIT license.     # change, or remove the line
 
-# Where the docs sit in the knowledge base (as in the main site's data/apps.json).
-category_id: marketplace-apps
-category_name: Marketplace Apps
+# The site section the docs belong to: the menu highlights it, and the breadcrumbs link to it.
+section_id: marketplace-apps
+section_name: Marketplace Apps
+section_url: marketplace-apps/
 
 url: https://liferay-community-apac.github.io
 lang: en

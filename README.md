@@ -16,7 +16,7 @@ it were one site.
 
 ## Add docs to an app
 
-1. **Start the docs repository from this template**: click **Use this template → Create a new repository**, in the Liferay-Community-APAC organization, and make it public. Name it after the app (for example `liferay-forums`): the name becomes the docs' address. To add docs to an existing app repository instead, copy `docs/` and `.github/workflows/pages.yml` into it.
+1. **Start the docs repository from this template**: click **Use this template → Create a new repository**, in the Liferay-Community-APAC organization, and make it public. Name it after the app (for example `liferay-forums`): the name becomes the docs' address, `/<repository-name>/` on the main site's address, so never use the name of one of the main site's own folders (such as `marketplace-apps`, `tutorials`, `community`, `resources`, `get-help`, `ja`, `zh` or `id`), or the repository hides that page. For an app without a code repository of its own, add a folder to the shared [marketplace-app-docs](https://github.com/Liferay-Community-APAC/marketplace-app-docs) repository instead. To add docs to an existing app repository instead, copy `docs/` and `.github/workflows/pages.yml` into it.
 2. **Edit the four marked lines in `docs/_config.yml`**: `app_name`, `description`, `baseurl` (`/` and the repository's name) and `footer_note`.
 3. **Write the docs in Markdown** in `docs/`. Each page starts with front matter:
 
